@@ -23,7 +23,8 @@ const Login = () => {
     try {
       const response = await login({ email, password });
       loginUser(response.data.token);
-      navigate('/dashboard');
+      // Force full page reload to dashboard
+      window.location.href = '/dashboard';
     } catch (err) {
       setError(err.response?.data?.message || 'Login failed');
     }
