@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { login } from '../services/api';
 import { AuthContext } from '../context/AuthContext';
 
@@ -8,7 +8,7 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const { loginUser } = useContext(AuthContext);
-  const navigate = useNavigate();
+  
 
   // Clear form on component mount
   React.useEffect(() => {
