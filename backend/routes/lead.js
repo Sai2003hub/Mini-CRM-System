@@ -60,7 +60,10 @@ router.put("/:id", auth, async (req, res) => {
 // DELETE LEAD
 router.delete("/:id", auth, async (req, res) => {
   try {
-    await Lead.findOneAndDelete({ _id: req.params.id, owner: req.userId });
+    const lead=await Lead.findOneAndDelete({ _id: req.params.id, owner: req.userId });
+    if (!lead){
+        return res.status(404).json({message:"Lead not found"});
+    }
     res.json({ message: "Lead deleted" });
   } catch (error) {
     console.error("Error deleting lead:", error.message);
