@@ -189,11 +189,6 @@ When a lead is qualified and ready for sales:
 - Other stages (Open, Proposal, Negotiation, Lost) are not counted
 - This follows standard accounting practices where revenue is only recognized when deals close
 
-### Multi-tenancy
-- Each user has their own isolated data
-- Users can only view and manage their own leads and deals
-- Data isolation is enforced through MongoDB owner field queries
-
 ## 🚀 Usage
 
 1. **Register** a new account or **Login** with existing credentials
@@ -238,4 +233,5 @@ Your Name
 ## 📧 Contact
 
 For any queries or suggestions, please reach out at saiakshaya2003@gmail.com
+
 
