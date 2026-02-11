@@ -233,8 +233,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Your Name
 - GitHub: [@Sai2003hub](https://github.com/Sai2003hub)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/in/sai-akshaya-r-1a11452a6/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saiakshaya-r/)
 
 ## 📧 Contact
 
 For any queries or suggestions, please reach out at saiakshaya2003@gmail.com
+
